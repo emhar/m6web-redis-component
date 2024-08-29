@@ -1,0 +1,27 @@
+{
+    "name": "m6web/redis-component",
+    "description" : "lib allowing you using redis through predis",
+    "keywords": ["redis"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olivier Mansour",
+            "email": "olivier.mansour@m6.fr"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "predis/predis": "^1.1.1"
+    },
+    "require-dev": {
+        "atoum/atoum": "@stable",
+        "m6web/symfony2-coding-standard" : "~1.1"
+    },
+	"autoload": {
+        "psr-0": { "M6Web\\Component\\Redis": "src/" }
+    }
+}
