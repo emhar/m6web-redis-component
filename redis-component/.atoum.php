@@ -1,3 +1,0 @@
-<?php
-
-$runner->addTestsFromDirectory('tests');
